@@ -11,6 +11,7 @@
     --gray-400: #94a3b8;
     --gray-200: #E2E8F0;
     --purple: #7c3aed;
+    --light-purple:#9F67FF;
     --white: #FFF;
 }
 header {
@@ -103,6 +104,12 @@ main {
     color: var(--white);
 }
 
+.login button:hover {
+    background: var(--light-purple);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
 .login > p {
     color: var(--gray-600);
 }
@@ -147,5 +154,10 @@ main {
         width: 100%;
         height: 100%;
     }
-
+    .descricao h1 {
+        font-size: 2.25rem;
+    }
+    .descricao p {
+        font-size: 1rem;
+    }
 }
