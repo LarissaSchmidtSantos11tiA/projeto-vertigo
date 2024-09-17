@@ -10,7 +10,7 @@
     --gray-600:#475569;
     --gray-400: #94a3b8;
     --gray-200: #E2E8F0;
-    --purple: #7c3aed;
+    --purple:#7c3aed;
     --light-purple:#9F67FF;
     --white: #FFF;
 }
@@ -55,7 +55,7 @@ main {
 .input-box div {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
 }
 
 .login label {
@@ -124,9 +124,9 @@ main {
 }
 
 @media(min-width: 1000px){
-
     body {
         display: flex;
+        height: 100vh;
     }
     header {
         background: none;
@@ -135,24 +135,28 @@ main {
 
         height: fit-content;
     }
-
     header img{
         width: 10rem;
     }
     main {
+        padding-inline: 7rem;
         margin-inline: 7rem;
         max-width: 24rem;
         padding: 0;
     }
-
     .conteudo {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-
     .bg-desktop {
         display: block;
         width: 100%;
         height: 100%;
+    }
+    .bg-desktop img {
+        width: 100%;
     }
     .descricao h1 {
         font-size: 2.25rem;
