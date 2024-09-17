@@ -117,9 +117,9 @@ main {
 }
 
 @media(min-width: 1000px){
+
     body {
         display: flex;
-        height: 100vh;
     }
     header {
         background: none;
@@ -128,11 +128,11 @@ main {
 
         height: fit-content;
     }
+
     header img{
         width: 10rem;
     }
     main {
-        padding-inline: 7rem;
         margin-inline: 7rem;
         max-width: 24rem;
         padding: 0;
@@ -148,4 +148,4 @@ main {
         height: 100%;
     }
 
-   
+}
